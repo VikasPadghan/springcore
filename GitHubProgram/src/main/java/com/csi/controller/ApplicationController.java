@@ -23,4 +23,10 @@ public class ApplicationController {
 	{
 		return "BANER | PUNE";
 	}
+	@GetMapping("/by")
+	public String by()
+	{
+		return "fullstack";
+	}
+
 }
